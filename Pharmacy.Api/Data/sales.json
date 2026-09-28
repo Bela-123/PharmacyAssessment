@@ -1,0 +1,14 @@
+[
+  {
+    "Id": 1,
+    "MedicineId": 2,
+    "QuantitySold": 2,
+    "SaleDate": "2026-09-25T08:30:31.026067Z"
+  },
+  {
+    "Id": 2,
+    "MedicineId": 2,
+    "QuantitySold": 2,
+    "SaleDate": "2026-09-25T08:31:41.145612Z"
+  }
+]

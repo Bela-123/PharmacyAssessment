@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f6f8;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+.header {
+  background: #1f2937;
+  color: white;
+  padding: 25px 40px;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.header p {
+  margin-bottom: 0;
+}
+
+main {
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+.search-section {
+  margin-bottom: 25px;
+}
+
+.search-section input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.medicine-form {
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+
+  display: grid;
+  gap: 12px;
+}
+
+.medicine-form input,
+.medicine-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.medicine-form textarea {
+  min-height: 80px;
+}
+
+.medicine-form button {
+  padding: 11px 20px;
+  border: none;
+  border-radius: 5px;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.medicine-form button:hover {
+  background: #1d4ed8;
+}
+
+.medicine-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+.medicine-table th,
+.medicine-table td {
+  padding: 14px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.medicine-table th {
+  background: #e5e7eb;
+}
+
+.expiry-row {
+  background: #fecaca;
+}
+
+.low-stock-row {
+  background: #fef3c7;
+}
+
+.error {
+  color: #dc2626;
+}
+
+.sale-form {
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+
+  display: grid;
+  gap: 12px;
+}
+
+.sale-form h2 {
+  margin-top: 0;
+}
+
+.sale-form label {
+  font-weight: bold;
+}
+
+.sale-form select,
+.sale-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.sale-form button {
+  padding: 11px 20px;
+  border: none;
+  border-radius: 5px;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.sale-form button:hover {
+  background: #1d4ed8;
+}
+
+.stock-info {
+  margin: 0;
+}
+
+.sale-error {
+  color: #dc2626;
+  font-weight: bold;
+  margin: 0;
+}
+
+.sale-success {
+  color: #16a34a;
+  font-weight: bold;
+  margin: 0;
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "Id": 1,
+    "FullName": "Paracetamol 500mg",
+    "Notes": "Pain relief",
+    "ExpiryDate": "2027-05-30T00:00:00",
+    "Quantity": 25,
+    "Price": 45.50,
+    "Brand": "ABC Pharma"
+  },
+  {
+    "Id": 2,
+    "FullName": "Amoxicillin 500mg",
+    "Notes": "Antibiotic",
+    "ExpiryDate": "2026-10-10T00:00:00",
+    "Quantity": 3,
+    "Price": 120.00,
+    "Brand": "XYZ Pharma"
+  }
+]
